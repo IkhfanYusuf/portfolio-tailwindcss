@@ -26,6 +26,16 @@
         p {
             font-family: 'Roboto', sans-serif;
         }
+
+        input:-webkit-autofill,
+        input:-webkit-autofill:hover,
+        input:-webkit-autofill:focus,
+        input:-webkit-autofill:active,
+        textarea:-webkit-autofill,
+        select:-webkit-autofill {
+            -webkit-box-shadow: 0 0 0 30px #25262A inset !important;
+            -webkit-text-fill-color: rgba(255, 255, 255, .87) !important;
+        }
     </style>
 </head>
 
@@ -160,7 +170,7 @@
                         </p>
                     </div>
                     <div class="col-span-6 md:col-span-3">
-                        <form action="" id="contact-form">
+                        <form action="" id="contact-form" class="">
                             <div class="mb-4">
                                 <label for="name" class="block text-sm font-medium mb-3">Name</label>
                                 <input type="text" id="name" autocomplete="name" placeholder="name"
