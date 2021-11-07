@@ -10,7 +10,8 @@ module.exports = {
         ...theme('colors'),
         'green-custom' : '#52B69A',
         'yellow-custom' : 'rgba(217, 237, 146, 0.87)',
-        'container' : '#25262A'
+        'container' : '#25262A',
+        'nav' : '#303135'
       }),
       gradientColorStops: theme => ({
         ...theme('colors'),
@@ -31,6 +32,7 @@ module.exports = {
       },
       borderColor : {
         'green-custom' : '#52B69A',
+        'container' : '#25262A'
       },
       ringColor: {
         'green-custom' : "#52B69A",
