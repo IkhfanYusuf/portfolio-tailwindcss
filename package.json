@@ -4,7 +4,8 @@
   "description": "portfolio website ikhfan yusuf with tailwind",
   "main": "app.js",
   "scripts": {
-    "dev": "tailwindcss build ./src/css/style.css -o ./public/css/tailwind.css"
+    "dev": "tailwindcss build ./src/css/style.css -o ./public/css/tailwind.css",
+    "prod": "NODE_ENV=production tailwindcss build ./src/css/style.css -o ./public/css/tailwind.css"
   },
   "author": "Ikhfan Yusuf",
   "license": "ISC",
